@@ -1,0 +1,517 @@
+#list_content {
+  width: 100%;
+  background: #f2f2f2;
+  float: left; }
+  #list_content .list_top {
+    width: 100%;
+    height: 32px;
+    margin-left: 35%; }
+    #list_content .list_top li {
+      float: left;
+      line-height: 32px;
+      font-size: 12px; }
+  #list_content .series {
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 38px;
+    line-height: 82px;
+    display: none; }
+
+#list_pic {
+  width: 80%;
+  position: relative;
+  float: left;
+  margin-left: 10%; }
+  #list_pic img {
+    width: 100%; }
+  #list_pic .pic_content {
+    position: absolute;
+    width: 30%;
+    height: 146px;
+    top: 26%;
+    left: 30%; }
+    #list_pic .pic_content p {
+      text-align: center;
+      line-height: 56px;
+      color: #fff;
+      font-size: 24px;
+      margin-bottom: 40px; }
+    #list_pic .pic_content span {
+      display: block;
+      width: 50%;
+      text-align: center;
+      line-height: 32px;
+      color: #000;
+      font-size: 12px;
+      background: #fff;
+      margin: 0 auto; }
+  #list_pic .pic_top {
+    width: 70%;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 4px;
+    left: 33%;
+    display: none; }
+  #list_pic .pic_span {
+    display: block;
+    line-height: 14px;
+    color: #000;
+    font-size: 14px;
+    margin: 34px 0;
+    display: none; }
+
+#list_video {
+  width: 80%;
+  margin-top: 22px;
+  margin-left: 10%;
+  height: 50%; }
+  #list_video video {
+    margin-top: 22px;
+    width: 100%;
+    height: 310px; }
+
+#Bracelets_box {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+  float: left; }
+  #Bracelets_box #list_Bracelets {
+    width: 40%; }
+    #Bracelets_box #list_Bracelets img {
+      width: 100%; }
+    #Bracelets_box #list_Bracelets .Bracelets_showad {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 40%;
+      background: #000;
+      opacity: .6; }
+      #Bracelets_box #list_Bracelets .Bracelets_showad p {
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 40px; }
+      #Bracelets_box #list_Bracelets .Bracelets_showad h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        line-height: 28px; }
+      #Bracelets_box #list_Bracelets .Bracelets_showad span {
+        text-align: center;
+        color: #000;
+        font-size: 14px;
+        line-height: 32px;
+        width: 130px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        background: #fff;
+        display: block;
+        margin: 12px auto; }
+
+#list_Bracelets1 {
+  width: 100%;
+  float: left;
+  display: none; }
+  #list_Bracelets1 .Bracelets_showad {
+    width: 100%;
+    background: #000;
+    opacity: .5; }
+    #list_Bracelets1 .Bracelets_showad p {
+      width: 100%;
+      text-align: center;
+      line-height: 6px;
+      color: #fff;
+      font-size: 24px;
+      padding-top: 10%; }
+    #list_Bracelets1 .Bracelets_showad h2 {
+      padding-top: 3%;
+      text-align: center;
+      color: #fff;
+      font-size: 20px;
+      line-height: 28px; }
+
+#list_ring {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  float: left; }
+  #list_ring img {
+    width: 100%; }
+  #list_ring .ring_box {
+    width: 100%;
+    position: absolute;
+    top: 0; }
+    #list_ring .ring_box .ring_img {
+      width: 14%;
+      margin-left: 18%;
+      margin-top: 28px; }
+    #list_ring .ring_box .ring_showad {
+      width: 50%;
+      background: #000;
+      opacity: .6;
+      float: right; }
+      #list_ring .ring_box .ring_showad p {
+        margin-top: 20px;
+        color: #fff;
+        font-size: 22px;
+        line-height: 60px;
+        text-align: center; }
+      #list_ring .ring_box .ring_showad span {
+        margin: 10% auto;
+        display: block;
+        width: 142px;
+        color: #000;
+        font-size: 12px;
+        line-height: 32px;
+        text-align: center;
+        background: #fff;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc; }
+
+#ring_img {
+  width: 100%;
+  display: none;
+  position: relative;
+  float: left; }
+  #ring_img img {
+    width: 100%;
+    height: 466px; }
+  #ring_img .ring_01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    opacity: .6; }
+    #ring_img .ring_01 h2 {
+      text-align: center;
+      line-height: 128px;
+      color: #fff;
+      font-size: 24px; }
+
+#list_torque {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px; }
+  #list_torque .torque_left {
+    width: 50%;
+    float: left;
+    position: relative; }
+    #list_torque .torque_left img {
+      width: 100%; }
+    #list_torque .torque_left .left_word {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #000;
+      opacity: .6; }
+      #list_torque .torque_left .left_word p {
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 40px; }
+      #list_torque .torque_left .left_word h2 {
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        line-height: 28px; }
+      #list_torque .torque_left .left_word span {
+        text-align: center;
+        color: #000;
+        font-size: 14px;
+        line-height: 32px;
+        width: 130px;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        background: #fff;
+        display: block;
+        margin: 12px auto; }
+  #list_torque .torque_right {
+    float: left;
+    width: 50%;
+    position: relative; }
+    #list_torque .torque_right img {
+      width: 100%; }
+    #list_torque .torque_right .torque_right_01 {
+      position: absolute;
+      top: 0;
+      right: 70px;
+      width: 154px;
+      margin-top: 42px; }
+      #list_torque .torque_right .torque_right_01 p {
+        color: #000;
+        font-size: 14px;
+        line-height: 24px; }
+      #list_torque .torque_right .torque_right_01 span {
+        display: block;
+        color: #555555;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center; }
+      #list_torque .torque_right .torque_right_01 i {
+        display: block;
+        color: #000;
+        font-size: 12px;
+        line-height: 42px;
+        text-align: center;
+        font-style: normal; }
+      #list_torque .torque_right .torque_right_01 em {
+        display: block;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        font-style: normal;
+        width: 174px;
+        line-height: 32px;
+        background: #a30101;
+        cursor: pointer; }
+  #list_torque .torque_right01 {
+    float: left;
+    width: 50%;
+    position: relative; }
+    #list_torque .torque_right01 img {
+      width: 100%; }
+    #list_torque .torque_right01 .torque_right_02 {
+      position: absolute;
+      top: 28px;
+      right: 70px;
+      width: 154px; }
+      #list_torque .torque_right01 .torque_right_02 p {
+        color: #000;
+        font-size: 14px;
+        line-height: 24px; }
+      #list_torque .torque_right01 .torque_right_02 span {
+        display: block;
+        color: #555555;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: center; }
+      #list_torque .torque_right01 .torque_right_02 i {
+        display: block;
+        color: #000;
+        font-size: 12px;
+        line-height: 42px;
+        text-align: center;
+        font-style: normal; }
+      #list_torque .torque_right01 .torque_right_02 em {
+        display: block;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        font-style: normal;
+        width: 174px;
+        line-height: 32px;
+        background: #a30101;
+        cursor: pointer; }
+
+#list_last {
+  float: left;
+  margin-top: 20px;
+  width: 80%;
+  margin-left: 10%;
+  position: relative; }
+  #list_last img {
+    width: 100%; }
+  #list_last .last_left {
+    position: absolute;
+    width: 50%;
+    top: 16px;
+    left: 10%; }
+    #list_last .last_left img {
+      width: 60%; }
+  #list_last .last_right {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #000;
+    opacity: .7;
+    height: 216px; }
+    #list_last .last_right p {
+      color: #fff;
+      line-height: 60px;
+      text-align: center; }
+    #list_last .last_right span {
+      display: block;
+      width: 132px;
+      line-height: 34px;
+      color: #000;
+      background: #fff;
+      margin: 0 auto;
+      text-align: center; }
+
+#last_img {
+  width: 100%;
+  float: left;
+  position: relative;
+  display: none;
+  margin-top: 20px; }
+  #last_img img {
+    width: 100%; }
+  #last_img .last_content {
+    height: auto; }
+    #last_img .last_content h2 {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      float: left;
+      line-height: 100px;
+      color: #fff;
+      text-align: center;
+      background: #000;
+      opacity: .6; }
+    #last_img .last_content img {
+      width: 34%;
+      position: absolute;
+      bottom: 50px;
+      left: 30%; }
+
+@media only screen and (max-width: 970px) {
+  header #header_right .header_right_02 {
+    display: block; }
+  header #header_right .header_right_01 {
+    display: none; }
+  header #header_left {
+    display: none; }
+  header #header_img img {
+    display: block; }
+
+  #list_content {
+    background: none; }
+    #list_content .list_top {
+      display: none; }
+    #list_content .series {
+      display: block; }
+
+  #index_nav .index_nav_list {
+    display: none; }
+  #index_nav .index_nav_hover {
+    display: none; }
+
+  #list_pic .pic_content {
+    display: none; }
+  #list_pic .pic_span {
+    display: block;
+    width: 100%; }
+
+  #Bracelets_box {
+    display: none; }
+
+  #list_Bracelets1 {
+    display: block; }
+    #list_Bracelets1 img {
+      width: 100%; }
+
+  #ring_img {
+    display: block; }
+
+  #list_ring {
+    display: none; }
+
+  #list_torque .torque_left {
+    width: 100%;
+    margin: 0 auto; }
+  #list_torque .torque_right {
+    width: 100%;
+    margin: 0 auto; }
+    #list_torque .torque_right .torque_right_01 {
+      position: absolute;
+      top: 34px; }
+  #list_torque .torque_right01 {
+    width: 100%;
+    margin: 0 auto; }
+    #list_torque .torque_right01 .torque_right_02 {
+      position: absolute;
+      top: 84px; }
+
+  #list_last {
+    display: none; }
+
+  #last_img {
+    display: block; } }
+@media only screen and (min-width: 749px) and (max-width: 970px) {
+  #list_pic {
+    width: 90%;
+    margin-left: 5%; }
+    #list_pic img {
+      width: 100%; } }
+@media only screen and (max-width: 749px) {
+  footer #index_bottom_footer {
+    display: block;
+    width: 26%;
+    margin: 0 auto; }
+  footer #index_bottom {
+    display: none; }
+
+  #footer_list_hover {
+    display: block; }
+
+  #footer_list {
+    display: none; }
+
+  #list_pic {
+    width: 100%;
+    margin-left: 0; }
+    #list_pic img {
+      width: 100%; }
+    #list_pic .pic_span {
+      width: 90%;
+      margin-left: 5%; }
+
+  #list_torque {
+    width: 100%; }
+    #list_torque .torque_left {
+      width: 100%; }
+    #list_torque .torque_right {
+      width: 100%; }
+
+  #list_torque .torque_left {
+    width: 100%;
+    margin-left: -10%; }
+  #list_torque .torque_right {
+    width: 100%;
+    margin-left: -10%; }
+    #list_torque .torque_right .torque_right_01 {
+      position: absolute;
+      top: 34px; }
+  #list_torque .torque_right01 {
+    width: 100%;
+    margin-left: -10%; }
+    #list_torque .torque_right01 .torque_right_02 {
+      position: absolute;
+      top: 84px; } }
+@media only screen and (max-width: 375px) {
+  #list_content .series {
+    display: none; }
+
+  #list_pic {
+    margin-top: 20px; }
+    #list_pic .pic_top {
+      display: block; }
+    #list_pic .pic_span {
+      display: none; }
+
+  #ring_img {
+    width: 100%;
+    height: 466px;
+    float: left; }
+    #ring_img .ring_01 {
+      background: none; }
+
+  #last_img .last_content img {
+    podition: absolute;
+    bottom: 10px; }
+
+  footer #index_bottom_footer {
+    width: 100%;
+    margin-left: 24%; } }
+
+/*# sourceMappingURL=outline.css.map */
