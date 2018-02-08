@@ -48,3 +48,28 @@ $('.third_back').click(function(){
 $('.index_login').click(function(){
 	location.href='login.html';
 });
+
+
+
+$('.active').click(function(){
+	$('.span').css('display','block');
+	$('.active').css('display','none');
+	$('.active2').css('display','block');
+});
+
+$('.active2').click(function(){
+	$('.span').css('display','none');
+	$('.active').css('display','block');
+	$('.active2').css('display','none');
+});
+$('.active1').click(function(){
+	$('.span1').css('display','block');
+	$('.active1').css('display','none');
+	$('.active3').css('display','block');
+});
+
+$('.active3').click(function(){
+	$('.span1').css('display','none');
+	$('.active1').css('display','block');
+	$('.active3').css('display','none');
+});

@@ -145,15 +145,14 @@
   #list_ring .ring_box {
     width: 100%;
     position: absolute;
-    top: 0; }
+    top: 0;
+    overflow: hidden; }
     #list_ring .ring_box .ring_img {
       width: 14%;
       margin-left: 18%;
       margin-top: 28px; }
     #list_ring .ring_box .ring_showad {
       width: 50%;
-      background: #000;
-      opacity: .6;
       float: right; }
       #list_ring .ring_box .ring_showad p {
         margin-top: 20px;
@@ -186,7 +185,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #000;
     opacity: .6; }
     #ring_img .ring_01 h2 {
       text-align: center;
@@ -331,10 +329,10 @@
     position: absolute;
     right: 0;
     top: 0;
-    background: #000;
     opacity: .7;
     height: 216px; }
     #list_last .last_right p {
+      margin-top: 38px;
       color: #fff;
       line-height: 60px;
       text-align: center; }

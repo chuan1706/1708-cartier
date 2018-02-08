@@ -233,7 +233,6 @@ header {
       top: 0;
       left: 0;
       width: 100%;
-      height: 424px;
       border-top: 1px solid #eee; }
       #index_nav .index_nav_hover .index_nav_hover_ul li {
         width: 16.4%;
@@ -258,12 +257,10 @@ header {
           color: #5a5a5a;
           background: url(../../images/b.png) bottom left no-repeat; }
         #index_nav .index_nav_hover .index_nav_hover_ul .series a {
-          line-height: 40px;
           font-size: 10px;
           color: #686868; }
         #index_nav .index_nav_hover .index_nav_hover_ul .series .hover_red {
-          width: 100%;
-          margin-top: 12%; }
+          width: 100%; }
           #index_nav .index_nav_hover .index_nav_hover_ul .series .hover_red a {
             background: url(../../images/jt.jpg) left center no-repeat;
             line-height: 22px;

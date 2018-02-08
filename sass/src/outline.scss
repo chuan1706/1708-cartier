@@ -169,6 +169,7 @@
 		width:100%;
 		position:absolute;
 		top:0;
+		overflow:hidden;
 		.ring_img{
 			width:14%;
 			margin-left:18%;
@@ -176,9 +177,10 @@
 		}
 		.ring_showad{
 			width:50%;
-			background:#000;
-			opacity:.6;
+			// background:#000;
+			// opacity:.6;
 			float: right;
+			// height:100%;
 
 			p{
 				margin-top:20px;
@@ -217,7 +219,7 @@
 		top:0;
 		left:0;
 		width:100%;
-		background:#000;
+		// background:#000;
 		opacity:.6;
 		h2{
 			text-align:center;
@@ -391,12 +393,10 @@
 		position:absolute;
 		right:0;
 		top:0;
-
-		background:#000;
 		opacity:.7;
 		height:216px;
 		p{
-			// margin-top:58px;
+			margin-top:38px;
 			color:#fff;
 			line-height:60px;
 			text-align:center;
